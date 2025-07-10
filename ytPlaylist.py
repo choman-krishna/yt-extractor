@@ -54,3 +54,8 @@ if st.button("Fetch Playlist Info"):
             )
     else:
         st.warning("Please enter a valid YouTube playlist URL.")
+st.markdown("""---""")
+st.markdown(
+    "<p style='text-align: center; color: grey;'>© Crishna</p>",
+    unsafe_allow_html=True
+)
